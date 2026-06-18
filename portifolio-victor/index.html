@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Victor William</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="capa" class="secao-capa">
+            <img src="Image/Victor Capa.png" alt="Capa Victor William" class="img-capa">
+        </section>
+
+        <section id="sobre">
+            <h1>Sobre mim</h1>
+            <p>Olá! Meu nome é Victor William. Sou estudante de Análise e Desenvolvimento de Sistemas (ADS) e atuo como desenvolvedor de software Full Stack.</p>
+            <p>Tenho facilidade e gosto por trabalhar com tecnologias como Java, Python, Next.js e criar soluções do zero. Atualmente, aplico meus conhecimentos no desenvolvimento do Vinxs, uma plataforma SaaS voltada para a criação de catálogos digitais.</p>
+            <p>Quando não estou programando ou focado nos meus projetos empreendedores, gosto de relaxar jogando bons RPGs ou cuidando das minhas coisas ligadas à cultura da vaquejada.</p>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação e Conhecimentos</h2>
+            <ul>
+                <li><strong>Graduação:</strong> Análise e Desenvolvimento de Sistemas (Previsão de conclusão: 2027)</li>
+                <li><strong>Idiomas:</strong> Inglês (nível técnico e profissional para leitura de documentações e código)</li>
+                <li><strong>Tecnologias principais:</strong> HTML5, CSS3, JavaScript, Java, Python, Next.js e integrações com APIs.</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="portfolio-grid">
+                
+                <div class="projeto-card">
+                    <img src="Image/Vinxs01.png" alt="Projeto Vinxs" class="img-projeto">
+                    <h3>Vinxs - SaaS de Catálogos Digitais</h3>
+                    <p>Plataforma desenvolvida para otimizar vendas de lojistas, permitindo a criação rápida de catálogos online.</p>
+                    <a href="https://www.vinxs.com.br" target="_blank" class="btn-link">Ver Projeto</a>
+                </div>
+
+                <div class="projeto-card">
+                    <img src="Image/IA Background.png" alt="IA Background Remover" class="img-projeto">
+                    <h3>IA Background Remover</h3>
+                    <p>Ferramenta e script desenvolvidos para remoção automática de fundos de imagens utilizando Inteligência Artificial.</p>
+                    <a href="https://ai-background-remover-avxvadsmejctxnruqwzzw2.streamlit.app" target="_blank" class="btn-link">Ver Repositório</a>
+                </div>
+
+                <div class="projeto-card">
+                    <h3>Projetos Acadêmicos (ADS)</h3>
+                    <p>Repositório geral com atividades, desafios lógicos e projetos construídos durante a faculdade.</p>
+                    <a href="https://github.com/MrBaWtaZaR?tab=repositories" target="_blank" class="btn-link">Ver Meu GitHub</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Tem algum projeto em mente ou quer bater um papo sobre tecnologia? Me mande uma mensagem!</p>
+            
+            <form id="form-contato">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                </div>
+                
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@dominio.com">
+                </div>
+                
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
